@@ -1,0 +1,14 @@
+{
+  "name": "the5vs-clinic-demo-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WhatsApp-style clinic assistant demo (Arabic/English) by the5vs - web prototype with a WhatsApp Cloud API upgrade path",
+  "scripts": {
+    "dev": "vercel dev",
+    "simulate": "node test/simulate.js",
+    "chat": "node test/simulate.js -i"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

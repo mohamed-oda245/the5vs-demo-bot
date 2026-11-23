@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/chat.js": { "maxDuration": 30 },
+    "api/whatsapp.js": { "maxDuration": 30 }
+  },
+  "rewrites": [{ "source": "/demo", "destination": "/index.html" }]
+}
